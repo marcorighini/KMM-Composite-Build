@@ -11,7 +11,8 @@ include ':app'
 includeBuild('sample-kmm'){
     dependencySubstitution {
         substitute module("com.marcorighini.shared:shared:1.0") with project(':shared')
-        substitute module("com.marcorighini.shared:feature1-business:1.0") with project(':shared:feature1-business')
-        substitute module("com.marcorighini.shared:feature1-viewmodel:1.0") with project(':shared:feature1-viewmodel')
+        substitute module("com.marcorighini.shared:feature1:1.0") with project(':shared:feature1')
+        substitute module("com.marcorighini.shared:feature1-business:1.0") with project(':shared:feature1:feature1-business')
+        substitute module("com.marcorighini.shared:feature1-viewmodel:1.0") with project(':shared:feature1:feature1-viewmodel')
     }
 }

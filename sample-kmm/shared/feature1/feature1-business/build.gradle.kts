@@ -23,16 +23,12 @@ kotlin {
         summary = "Some description for the Shared Module"
         homepage = "Link to the Shared Module homepage"
         ios.deploymentTarget = "14.1"
-        frameworkName = "shared:featuure1-viewmodel"
+        frameworkName = "shared:feature1-business"
         // set path to your ios project podfile, e.g. podfile = project.file("../iosApp/Podfile")
     }
     
     sourceSets {
-        val commonMain by getting {
-            dependencies {
-                implementation(project(":shared:feature1-business"))
-            }
-        }
+        val commonMain by getting
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test-common"))
@@ -58,7 +54,4 @@ android {
         minSdkVersion(21)
         targetSdkVersion(30)
     }
-}
-dependencies {
-    implementation(project(mapOf("path" to ":shared:feature1-business")))
 }
