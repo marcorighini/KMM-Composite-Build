@@ -1,5 +1,3 @@
-enableFeaturePreview("GRADLE_METADATA")
-
 include(":shared")
 include(":shared:feature1")
 include(":shared:feature1:feature1-business")
