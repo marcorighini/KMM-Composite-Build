@@ -1,4 +1,4 @@
-package com.marcorighini.feature1business
+package com.marcorighini.feature1.business
 
 class SomeClass {
 

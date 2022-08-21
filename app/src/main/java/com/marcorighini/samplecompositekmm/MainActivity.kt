@@ -9,7 +9,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.google.android.material.snackbar.Snackbar
-import com.marcorighini.feature1_viewmodel.SampleSharedViewModel
+import com.marcorighini.feature1.viewmodel.SampleSharedViewModel
 import com.marcorighini.samplecompositekmm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

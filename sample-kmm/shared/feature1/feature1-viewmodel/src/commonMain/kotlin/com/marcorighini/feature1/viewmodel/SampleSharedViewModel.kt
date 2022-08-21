@@ -1,6 +1,6 @@
-package com.marcorighini.feature1_viewmodel
+package com.marcorighini.feature1.viewmodel
 
-import com.marcorighini.feature1business.SomeClass
+import com.marcorighini.feature1.business.SomeClass
 
 class SampleSharedViewModel {
 
